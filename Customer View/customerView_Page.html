@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilt-Free Beverages</title>
+    <link rel="stylesheet" href="customerView_Styling.css">
+</head>
+<body>
+    <section id="screen">
+        <header id="mainHeader">
+            <h1>Guilt-Free Beverages</h1>
+        </header>
+
+        <nav id="home_order">
+            <ul>
+                <li><a href="../Index_Page/indexPage.html">Home</a></li>
+                <li><a href="../Beverage_Order_Form/orderForm.html">Place an Order</a></li>
+            </ul>
+        </nav>
+
+        <!--Section to display Menu and Queue -->
+        <section id="menu_queue">
+            <!--Menu Block-->
+            <article class="menu_article">   
+                <h2>Beverage Menu</h3>
+                <section class="menu_section padding" id="menuSection">
+                    <!-- <div class="drinkName">GreenTea</div> -->
+                </section>   
+            </article>
+             <!--Queues Block-->
+            <article class="menu_article queues_article">
+                <h2>Orders Queue</h3>
+                <section class="menu_section queues_section">
+                    <article class="menu_article" id="inTheQueue">   
+                        <h3>In The Queue</h3>
+                        <!-- <div class="name_drink">
+                            <div class="drink">Green Tea</div>
+                            <div class="name">Saketh</div>
+                        </div> -->
+                    </article>
+                    <article class="menu_article" id="beingMixed">   
+                        <h3>Being Mixed</h3>
+                    </article>
+                    <article class="menu_article" id="readyToCollect">   
+                        <h3>Ready To Collect</h3>
+                    </article>
+                </section>
+            </article>
+        </section>
+
+        <footer id="companyInfo">
+            <div>
+                <br/> Address: <br/>
+                -----------<br/>
+                Street-2, Czech Colony  <br/>   
+                Saketh's Beverages<br/>
+                Sanathnagar, Hyderabad <br/>
+                500018<br/>    
+            </div>
+        </footer>
+    </section>
+    <script type="text/javascript" src="fetchBeveragesList.js"></script>
+    <script type="text/javascript" src="getCustomersData.js"></script>
+    <script type="text/javascript" src="removeOrderFromQueue.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Sparkling Cranberry Punch",
+        "cost": "20$",
+        "available": true
+    },
+    {
+        "id": 2,
+        "name": "Iced Chocolate Delight",
+        "cost": "30$",
+        "available": true
+    },
+    {
+        "id": 3,
+        "name": "Raspberry Fizz",
+        "cost": "25$",
+        "available": false
+    },
+    {
+        "id": 4,
+        "name": "Frozen Margarita",
+        "cost": "30$",
+        "available": true
+    },
+    {
+        "id": 5,
+        "name": "Summer Punch",
+        "cost": "15$",
+        "available": true
+    },
+    {
+        "id": 6,
+        "name": "Raspberry-Lime Rickey",
+        "cost": "35$",
+        "available": true
+    },
+    {
+        "id": 7,
+        "name": "Tomato Lassi",
+        "cost": "10$",
+        "available": true
+    },
+    {
+        "id": 8,
+        "name": "Cranberry Coke",
+        "cost": "40$",
+        "available": true
+    },
+    {
+        "id": 9,
+        "name": "Coconut Lavender Lemonade",
+        "cost": "30$",
+        "available": true
+    },
+    {
+        "id": 10,
+        "name": "Thai Iced Tea",
+        "cost": "25$",
+        "available": true
+    }
+]
