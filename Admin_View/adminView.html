@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Portal</title>
+    <link rel="stylesheet" href="../Customer_View/customerView_Styling.css"/>
+    <link rel="stylesheet" href="adminViewStyling.css"/>
+</head>
+<body>
+    <section id="screen">
+        <header id="mainHeader">
+            <h1>Guilt-Free Beverages</h1>
+        </header>
+    
+        <nav id="home_order">
+            <ul>
+                <li><a href="../Index_Page/indexPage.html">Home</a></li>
+                <li><a href="../Customer_View/customerView_Page.html">Customer View Page</a></li>
+            </ul>
+        </nav>
+
+        <!--Queues Block-->
+        <section id="menu_queue">
+            <article class="menu_article queues_article">
+                <h2>Orders Queue</h3>
+                <section class="menu_section queues_section">
+                    <article class="menu_article" id="inTheQueue">   
+                        <h3>In The Queue</h3>
+                        <!-- <div class="name_drink">
+                            <div class="drink">Green Tea</div>
+                            <div class="name">Saketh</div>
+                        </div> -->
+                    </article>
+                    <article class="menu_article" id="beingMixed">   
+                        <h3>Being Mixed</h3>
+                    </article>
+                    <article class="menu_article" id="readyToCollect">   
+                        <h3>Ready To Collect</h3>
+                    </article>
+                </section>
+            </article>
+        </section>
+    </section>
+    <script type="text/javascript" src="../Customer_View/getCustomersData.js"></script>
+    <script type="text/javascript" src="shiftToNextQueue.js"></script>
+</body>
+</html>

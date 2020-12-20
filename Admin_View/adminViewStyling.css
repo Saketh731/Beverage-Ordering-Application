@@ -1,0 +1,27 @@
+body{
+    height: 150vh;
+}
+
+.queues_article{
+    width: 100%;
+}
+
+header#mainHeader{
+    height: 8%;
+}
+
+nav#home_order{
+    height: 5%;
+}
+
+.queues_section > article > .name_drink {
+    height: 20%;
+}
+
+#inTheQueue .name_drink:hover, #beingMixed .name_drink:hover{
+    border: 2px solid black;
+}
+
+#readyToCollect .name_drink:hover{
+    border: none;
+}
